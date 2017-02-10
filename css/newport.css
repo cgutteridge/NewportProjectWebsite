@@ -1,0 +1,55 @@
+
+ 
+body { 
+}
+.navbar-ventnor {
+	background-color: rgba( 0,0,0,0.5);
+}
+.navbar-ventnor a {
+	color: #fff;
+}
+.mud {
+	background: url(../images/mud.png);
+	color: #fff;
+	padding-bottom: 32px;
+}
+.row {
+	text-align: center;
+}
+.grass {
+	height: 32px;
+	background: url(../images/grass-side.png);
+}
+#map {
+}
+.sectionAnchor {
+	display: block;
+	height: 5em;
+}
+.sectionHeading {
+	background: url(../images/cloudbar.jpg);
+	background-size: cover;
+	border-top: solid 2px #006;
+	border-bottom: solid 2px #006;
+	text-align: center;
+}
+.sectionHeading h2 {
+	margin: 0.5em;
+}
+p a {
+	font-weight: bold;
+	color: #aaf;
+}
+p a:hover {
+	font-weight: bold;
+	color: #ffa;
+}
+button {
+ 	color: #003;
+}
+
+
+.cycle-slideshow img {
+      width: 100%;
+      min-height: 400px;
+}

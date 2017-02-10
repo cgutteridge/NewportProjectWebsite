@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Newport (Isle of Wight Minecraft)</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/newport.css" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    </script>
+
+<style>
+</style>
+
+  </head>
+  <body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.js"></script>
+
+<nav class="navbar navbar-ventnor navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project Newport</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#opendata">Open Data</a></li>
+        <li><a href="#me">Me</a></li>
+        <li><a href="#thanks">Thanks-to</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div style='z-index: 9999; position: absolute; top: 100px; left: 0; font-size:200%; width:100%; text-align: center'> 
+  <div style='background-color: rgba(0,0,0,0.5); color: #fff; display:inline-block; padding: 10px; border-radius: 10px;'>
+    <h1>Project Newport</h1>
+    <h2>Half term, February 2017</h2>
+  </div>
+</div>
+
+<div class="cycle-slideshow" data-timeout="1"  data-speed="1000"   data-cycle-fx='fadeout' >
+  <img src='images/24/01.jpg' />
+  <img src='images/24/02.jpg' />
+  <img src='images/24/03.jpg' />
+  <img src='images/24/04.jpg' />
+  <img src='images/24/05.jpg' />
+  <img src='images/24/06.jpg' />
+  <img src='images/24/07.jpg' />
+  <img src='images/24/08.jpg' />
+  <img src='images/24/09.jpg' />
+  <img src='images/24/10.jpg' />
+  <img src='images/24/11.jpg' />
+  <img src='images/24/12.jpg' />
+  <img src='images/24/13.jpg' />
+  <img src='images/24/14.jpg' />
+  <img src='images/24/15.jpg' />
+  <img src='images/24/16.jpg' />
+  <img src='images/24/17.jpg' />
+  <img src='images/24/18.jpg' />
+  <img src='images/24/19.jpg' />
+  <img src='images/24/20.jpg' />
+  <img src='images/24/21.jpg' />
+  <img src='images/24/22.jpg' />
+  <img src='images/24/23.jpg' />
+  <img src='images/24/24.jpg' />
+</div>
+
+<div class="container-fluid mud" style="" id='about'>
+  <div class="row grass" ></div>
+  <div style='height:5em'></div>
+</div>
+
+<div class='sectionHeading' >
+  <h2>Your challenge</h2>
+</div>
+
+<div class="mud" >
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+    <div class="row" >
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <p>The idea is simple...  Over half term create your idea of the past, present or future of Newport.</p>
+        <p>If you want you can send us pictures or videos of your creations. [Safety rule: never ever mention your own house or school!]</p>
+        <p>To start you off we've created a Minecraft "colouring book" version of Newport, which shows the river, buildings and trees, but is quite boring. It's your job to make it more accurate or more historical or more futuristic.</p>
+        <p>On Saturday the 25th we have a drop in afternoon where I'll be talking about the project, and you can meet other enthusiasts and compare notes. Check back to this webpage for more details about how to share your creations and the drop-in event.</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <a class='sectionAnchor' name='downloads'></a>
+</div>
+<div class='sectionHeading' >
+      <h2>Downloads</h2>
+</div>
+
+<div class="mud" >
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+    <div class="row" >
+      <div class='col-md-offset-2 col-md-8' style='font-size: 150%'>
+        <p>Images on this website may be used on this site under a <a href='https://creativecommons.org/licenses/by-nc/3.0/'>CC-BY-NC</a> license. Press may use the images for the purposes of describing the project. You may not use images I created for making money or advertising your business without <a href='mailto:cjg@ecs.soton.ac.uk'>my permission</a>.</p>
+      </div>
+    </div>
+
+    <div class="row" >
+     <div class='col-md-offset-2 col-md-8'>
+       <p>These downloads are Minecraft maps for use with the PC or OSX or Linux version of Minecraft. They won't work on Playstation, XBox or tablets, sorry.</p>
+       <p>Each of these downloads is a ZIP file which you will need to unzip. The resulting folder should be moved to your Minecraft "saves" directory. They you will have the option to play that would when you choose "single player". If you need more help see this <a href='http://minecraft.gamepedia.com/Tutorials/Map_downloads'>guide to installing new Minecraft maps</a>.</p>
+       <p>If you have any trouble, <a href='mailto:cjg@ecs.soton.ac.uk'>drop me an email</a>, and when I next read my email I'll try to help.</p>
+     </div>
+    </div>
+
+    <div class="row" >
+     <h3>Source Code</h3>
+    </div>
+    <div class="row" >
+     <div class='col-md-4' style='text-align:left'>
+      <p>The software for producing minecraft worlds from LIDAR data and open streetmap is free to reuse (if you manage to figure it out).</p>
+     </div>
+     <div class='col-md-offset-2 col-md-4'><a href='https://github.com/cgutteridge/geocraft'><img src='images/code.png' class="img-responsive" ></a></div>
+    </div>
+
+    <div class="row" >
+     <h3>Source Code</h3>
+    </div>
+    <div class="row" >
+     <div class='col-md-offset-2 col-md-4'><a href='https://github.com/cgutteridge/geocraft'><img src='images/code.png' class="img-responsive" ></a></div>
+     <div class='col-md-4' style='text-align:left'>
+      <p>The software for producing minecraft worlds from LIDAR data and open streetmap is free to reuse (if you manage to figure it out).</p>
+     </div>
+    </div>
+
+  </div><!-- /container-fluid -->
+  <a class='sectionAnchor' name='faq'></a>
+</div><!-- /mud -->
+
+<div class='sectionHeading' >
+      <h2>Frequently Asked Questions</h2>
+</div>
+
+<div class="mud" >
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+    <div class="row" >
+      <div class='col-md-offset-2 col-md-8' style='font-size: 100%; text-align:left'>
+        <p>Can't see your question? Email me at <a href='mailto:cjg@ecs.soton.ac.uk'>cjg@ecs.soton.ac.uk</a> and I'll try to answer it.</p>
+        <h2>What's the prize?</h2>
+        <p>There's no prizes. Just more fun. We won't be judging the contest, but we'll try to share cool creations you make with other people.</p>
+        <h2>Who can enter?</h2>
+        <p>While this is aimed at people on half term, anybody can play!</p>
+        <h2>How well researched should a "historical" creation be?</h2>
+        <p>That's entirely up to you. We'll try to share useful resources to give you ideas. It's not cool to make something up and pretend it's accurate, but it's cool to make something up for fun if that's the way your ideas go.</p>
+        <h2>How can I quickly get to a place on the map you made?</h2>
+        <p>If you go to the <a href='https://www.minecraftworldmap.com/worlds/Qz_Tj'>newport map page</a> on Minecraft Map World, it gives you a Google-maps style way to explore. If you hover your mouse it shows the X and Z coordinates of that spot (Y is up/down of course). To get to X 2447, Z -1528 in creative mode, type <tt>/tp 2447 100 -1528</tt> ... the 100 puts you way up in the air, but that's better than being underground!</p>
+        <h2>Does it have to be Newport? Can't I do somewhere else?</h2>
+        <p>Sure, this is a creative project, so if you have a great idea that doesn't quite fit, go for it! I've lots more <a href='https://www.minecraftworldmap.com/users/cgutteridge'>minecraft maps of bits of England</a> you can play with.</p>
+      </div>
+    </div>
+  </div>
+  <a class='sectionAnchor' name='opendata'></a>
+</div>
+    
+
+
+<div class='sectionHeading' >
+      <h2>How this started: Open Data Ventnor</h2>
+</div>
+
+<div class="mud" >
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+
+    <div class="row" style='margin-bottom: 1em'>
+      <div class='col-md-offset-2 col-md-5'>
+        <img src='images/flatmap.jpg' class="img-responsive" >
+      </div>
+      <div class='col-md-3'>
+	<p>Once I had finished everything, I was surprisingly ahead of schedule and I thought to myself how nice it would have been to have a tool that projected open street map roads and building outlines into Minecraft...</p>
+        <p>I happen to be a computer programmer and do quite a lot of work in  the area of <a href='http://data.southampton.ac.uk/'>Open Data</a> so decided to try to write it. The first version was useful but boring as you can see from the picture on the left. It works out for each block what the real world latitude and longitude would be then looks at open streetmap to see what colour that bit is and sets a block based on that... water, grass etc.</p>
+
+        <p>The screenshot is the area around Ventnor Library run through this process.</p>
+      </div>
+    </div><!-- /row -->
+
+    <div class="row" style='margin-bottom: 1em'>
+      <div class='col-md-offset-2 col-md-3'>
+        <p>To make it more interesting I then ran it over Southampton, using LIDAR data from <a href='http://hampshirehub.net/'>Hampshire Hub</a> (Hampshire country-council open data service). This data gave a reading of how high the ground was on a 20m grid of all of Hampshire and was open data (thanks!). <a href='https://en.wikipedia.org/wiki/Lidar'>LIDAR</a> is a distance-measuring laser that is waved around from a aeroplane, usually at the same time as doing aerial photography.
+        <p>I also set buildings to be 10 blocks high. It looks a bit weird that the tops of the buildings follow the slopes, but generally it worked nicely. The data didn't quite line up and I had to apply a fiddle factor -- I suspect that I have an error in my geometric conversions somewhere. Ah well, works OK warts and all...</p>
+        <p>This picture is Highfield Campus at the University of Southampton</p>
+      </div>
+      <div class='col-md-5'>
+        <img src='images/extrude.jpg' class="img-responsive" >
+      </div>
+    </div><!-- /row -->
+
+
+    <div class="row" style='margin-bottom: 1em'>
+      <div class='col-md-offset-2 col-md-5'>
+        <img src='images/library-lidar.jpg' class="img-responsive" >
+      </div>
+      <div class='col-md-3'>
+	<p>I went along with this to a map-maker's club in Southampton, run by someone from Ordnance Survey. There I met a lady who works for the Oceanography Center who told me about the wonderful open data they have buried in their site. This includes 1m scale LIDAR for the coast of much of the UK, including Ventnor. Unlike the HampshireHub data this doesn't remove buildings and trees, so no need to do my extrude trick. As you can see the results are slighly wobbley but pretty cool and make a great basis for making proper models of the town.</p>
+
+        <p>The screenshot is the area around Ventnor Library with the <a href='http://www.channelcoast.org/'>Channel Coast Observatory</a> LIDAR data applied.</p>
+      </div>
+    </div><!-- /row -->
+
+    <div class="row" style='margin-bottom: 1em'>
+      <div class='col-md-offset-2 col-md-3'>
+	<p>Where it came out really cool is along the cliffs and coast. It's a bit gutting to see the cascade and cliffs rendered automatically after spending night after night pouring over reference photos trying to build it by hand!</p>
+      </div>
+      <div class='col-md-5'>
+        <img src='images/opendata-haven.jpg' class="img-responsive" >
+      </div>
+    </div><!-- /row -->
+
+    <div class="row" style='margin-bottom: 1em'>
+      <div class='col-md-offset-2 col-md-5'>
+        <img src='images/almafail.jpg' class="img-responsive" >
+      </div>
+      <div class='col-md-3'>
+	<p>The final version is about 3000x2000 blocks and extends from The Undercliff to Bonchurch, the beach to Upper Ventnor.</p>
+        <p>An unexpected application is shown here, where you can see clearly an error in the Open Street Map data (which someone nice has now corrected as a result).</p>
+        <p>This entire huge version of Ventnor is free to <a href='#download'>download</a>, modify and redistribute so long as you credit: Christopher Gutteridge, Open Street Map and the Channel Coast Observatory for our contributions.</p>
+      </div>
+    </div><!-- /row -->
+
+    <div class="row" style='margin-bottom: 1em'>
+
+
+
+
+
+  </div><!-- /container-fluid -->
+
+  <a class='sectionAnchor' name='me'></a>
+</div><!-- /mud -->
+
+<div class='sectionHeading' >
+      <h2>About Me</h2>
+</div>
+
+<div class="mud" >
+
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+    <div class="row" >
+     <div class='col-md-offset-2 col-md-4'><img src='images/photo-me.jpg' class="img-responsive" ></div>
+     <div class='col-md-4'><img src='images/minecraft-me.jpg' class="img-responsive" ></div>
+    </div><!-- /row -->
+    <div class="row" style='margin-top:2em'>
+      <div class='col-md-offset-2 col-md-8'>
+        <p>My name's Christopher Gutteridge. I grew up (ish) in Ventnor but moved away in 1997. When I went to university I was shocked to hear about all the cool geeky events for kids that happened on the mainland but not the Island. I'm really pleased to finally have a chance to help fix that.</p>
+        <p>I spend most of the rest of my time working for the <a href='http://blogs.soton.ac.uk/webteam/'>Web &amp; Data Innovation &amp; Development Team</a> at the <a href='http://www.soton.ac.uk/'>University of Southampton</a>. The most interesting stuff I work on is open access to research papers, open data and research data management.</p>
+        <p>My previous major Minecraft project was <a href='http://ventnor.totl.net/'>Ventnor Seafront</a> at <a href='http://ventnorexchange.co.uk/'>Ventnor Fringe 2015</a>. A few people paid real folding money for pictures I made in Minecraft. I'm very proud of that.</p>
+        <p>Mail: <a href='mailto:cjg@ecs.soton.ac.uk'>cjg@ecs.soton.ac.uk</a> | Twits: <a href='http://twitter.com/cgutteridge'>@cgutteridge</a> | Minecraft: cgutteridge</p>
+      </div>
+    </div><!-- /row -->
+  </div><!-- /container-fluid -->
+ 
+  <a class='sectionAnchor' name='thanks'></a>
+</div><!-- /mud -->
+
+<div class='sectionHeading' >
+      <h2>Thanks</h2>
+</div>
+
+<div class="mud" >
+
+  <div style='height:5em'></div>
+  <div class="container-fluid " style="" >
+    <div class="row" >
+      <div class='col-md-offset-2 col-md-8'>
+        <p>Thanks to...</p>
+        <p><a href='http://joannakori.com/'>Joanna Kori</a> - for the idea and opportunity.</p> 
+        <p><a href='http://www.quayarts.org/'>Quay Arts</a> </p>
+	<p>Jesper Öqvist - author of <a href='http://chunky.llbit.se/'>Chunky</a> which I used to do the nice ray-traced versions.</p>
+        <p><a href='http://openstreetmap.org/'>Open Stretmap</a></p>
+        <p><a href='http://channelcoast.org/'>The Channel Coast Observatory</a></p>
+        <p><a href='http://onthewight.org/'>On The Wight</a></p>
+      </div>
+    </div><!-- /row -->
+    <div class='vh20'></div>
+  </div><!-- /container-fluid -->
+</div><!-- /mud -->
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
